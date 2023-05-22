@@ -1,0 +1,252 @@
+.navbar-brand
+{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.Banner{
+    background-color: #FFC109;
+    height: 60px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+ul.socialIcons {
+  text-align: right;
+  margin-right: 0px;
+}
+.socialIcons{
+  margin-top: 5px;
+}
+.socialIcons li {
+  list-style: none;
+  display: inline-block;
+  margin: 2px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.socialIcons li a {
+  display: block;
+  padding: 2px;
+  min-width: 40px;
+  max-width: 40px;
+  height: 20px;
+  white-space: wrap;
+  line-height: 1.5em; /*it's working only when you write text with icon*/
+  transition: 0.5s;
+  text-decoration: none;
+  font-family: arial;
+  color: #fff;
+}
+
+.socialIcons li i {
+  margin-right: 5px;
+}
+.socialIcons li:hover a {
+  max-width: 200px;
+  padding-right: 1em;
+}
+.socialIcons .facebook {
+  background-color: #3b5998;
+}
+.socialIcons .twitter {
+  background-color: #00aced;
+}
+.socialIcons .instagram {
+  background-color: #cd486b;
+}
+.socialIcons .pinterest {
+  background-color: #c92228; 
+}
+.socialIcons .linkedin {
+  background-color: #3953fe;
+}
+
+.jumbotron {
+    margin-top: 0;
+    background-image: url('./Assets/img/Hero_Image.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+.TrainingPackage_Button{
+    z-index: 2;
+    padding: 10px;
+    margin-top: 50px;
+    margin-right: 300px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+  .HeroOverlay{
+    max-width: 55%;
+    height: auto;
+  }
+  .hero_text{
+    color: #fff;
+    text-shadow: 2px 2px rgba(59, 59, 59, 0.639);
+    z-index: 2;
+    margin-right: 300px;
+    
+  }
+  .card-deck {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: space-between;
+}
+.card {
+    margin-top: 50px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-right: 5px;
+    z-index: 2;
+}
+
+  .card-deck .card {
+    max-width: 350px;
+  }
+  
+  .card-deck .card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-deck .card-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .card-deck .card-text {
+    font-size: 1rem;
+  }
+  
+  .btn-secondary {
+    border-color: #007bff;
+    color: #007bff;
+  }
+  .card .fa-laptop-code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: #3b5998;
+  }
+  .card .fa-laptop-code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .card .fa-react{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: #3b5998;
+  }
+  .card .fa-react{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  .card .fa-robot{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: #3b5998;
+  }
+  .card .fa-robot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .fa-chart-column{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: #3b5998;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .fa-connectdevelop{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: #3b5998;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }.fa-database{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: #3b5998;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+
