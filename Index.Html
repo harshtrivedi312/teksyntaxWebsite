@@ -9,81 +9,83 @@
 
   <!--FontAwesome-->
   <script src="https://kit.fontawesome.com/904f78920b.js" crossorigin="anonymous"></script>
-  <!-- Favicons -->
-  <link href="./Assets/Logo/Teksyntax logo.png" rel="icon">
-  <link href="./Assets/Logo/Teksyntax logo.png" rel="apple-touch-icon">
 
+  <!-- Favicons -->
+  <link href="./Assets/img/Logo/Teksyntax logo.png" rel="icon" />
+  <link href="./Assets/img/Logo/Teksyntax logo.png" rel="apple-touch-icon" />
 
   <!--Style css-->
   <link rel="stylesheet" type="text/css" href="style.css" />
 
-  <!-- Vendor CSS Files -->
-  <link href="./Assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="./Assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="./Assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="./Assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="./Assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!--JavaScript File-->
+  <script src="./Assets/js/myJavaScript.js"></script>
 
-  <!--Google Font -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine" />
+  <!-- Bootstrap JS and jQuery -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QLQZv6UvYjZE3Ipu6Tp75j7Bh/kD1" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-
-  <!-- Bootstrap JavaScript -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QLQZv6UvYjZE3Ipu6Tp75j7Bh/kD1"
-    crossorigin="anonymous"></script>
 </head>
 
-<!----------------------------------------------BODY---------------------------------------------------------->
-
-<!------------------------------------------------------------------------------------------------------------>
-
 <body>
-
-  <!----------------------------------------------NavBar---------------------------------------------------------->
-
-  <!------------------------------------------------------------------------------------------------------------>
+  <!--Top Bar-->
+  <div class="container-fluid p-0 Sticky-top justify-content-center">
+    <h3 class="Banner">
+      Just Launched : Extensive BootCamp for Quality Assurance Automation
+    </h3>
+  </div>
+  <!-- End Top Bar -->
 
   <!--Nav Bar-->
-  <div class="container-fluid p-0 Sticky-top justify-content-center ">
-    <h3 class="Banner">Just Launched : Extensive BootCamp for Quality Assurance Automation </h3>
-  </div>
-  </section><!-- End Top Bar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark Sticky-top" data-bs-toggle="offcanvas"
     data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
     <a class="navbar-brand" href="#">
-      <img src="./Assets/Logo/Teksyntax logo.png" width="30" height="30" class="d-inline-block align-top" alt="" />
-      TekSyntax Inc
+      <img src="./Assets//img/Logo/FULL_LOGO.png" width="auto" height="80" class="d-inline-block align-top" alt="" />
+
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Find Your Course</a>
+          <a class="nav-link" href="#CoursesTab">Find Your Course</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Apply For Job</a>
+          <a class="nav-link" target="_blank" href="./JobApplicationForm.html">Apply For Job</a>
         </li>
-      </ul>
-      <ul class="navbar-nav">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             For Students
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Option 1</a>
-            <a class="dropdown-item" href="#">Option 2</a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row dropdownMenu">
+              <div class="col-md-2">
+                <h6 class="dropdown-header ">Courses</h6>
+                <a class="dropdown-item" href="#">Online</a>
+                <a class="dropdown-item" href="#">On-Site</a>
+                <a class="dropdown-item" href="#">Hybrid</a>
+              </div>
+              <div class="col-md-4">
+                <h6 class="dropdown-header">Financial Aid</h6>
+                <a class="dropdown-item" href="#">Easy Pay Option</a>
+                <a class="dropdown-item" href="#">Student Discounts</a>
+                <a class="dropdown-item" href="#">Employee Sponsored</a>
+              </div>
+              <div class="col-md-4">
+                <h6 class="dropdown-header">Workshops & Events</h6>
+                <a class="dropdown-item" href="#">Webinars</a>
+                <a class="dropdown-item" href="#">Demo Lectures</a>
+                <a class="dropdown-item" href="#">Open house</a>
+              </div>
+            </div>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -91,83 +93,152 @@
             aria-haspopup="true" aria-expanded="false">
             For Companies
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Option 1</a>
-            <a class="dropdown-item" href="#">Option 2</a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Hire Talent</a>
+            <a class="dropdown-item" href="#">Hire TekSyntax Graduate</a>
+            <a class="dropdown-item" href="#">Tech Solution</a>
+            <a class="dropdown-item" href="#">Data Solution</a>
           </div>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown ">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             About
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Option 1</a>
-            <a class="dropdown-item" href="#">Option 2</a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Why TekSyntax?</a>
+            <a class="dropdown-item" href="#">Our Story</a>
           </div>
         </li>
       </ul>
     </div>
   </nav>
+  <!--End NavBar-->
 
 
-
-  <!------------------------------------------------HERO IMAGE AND CARDS------------------------------------------------------>
-
-  <!------------------------------------------------------------------------------------------------------------>
-
-  <div class="hero">
-    <div class="container-fluid p-0">
-      <div class="jumbotron">
-        <div class="imageOverlay">
-          <img class="HeroOverlay" src="./Assets/img/HeroOverlay.png" alt="ManImage">
+  <!--Hero Image-->
+  <div class="Hero">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <img class="HeroOverlay" src="./Assets/img/Hero/HeroOverlay.png" alt="ManImage" />
         </div>
-        <div class="hero_content">
-          <div class="hero_text">
+        <div class="col-md-6" style="margin-top: 300px">
+          <span class="text-center hero_text">
             <h1>Launch Your Career in Tech</h1>
             <h3>Master digital skills to enhance your career</h3>
-          </div>
-          <div class="TrainingPackage_Button">
+          </span>
+
+          <div class="text-center">
             <button type="button" class="btn btn-md btn-warning">
-              <i class="fa-solid fa-download"></i> Free Course Brochure
+              <i class="fa-solid fa-download xl"></i> Free Course Brochure
+            </button>
+            <button type="button" class="btn btn-md btn-warning">
+              <i class="fa-solid fa-download xl"></i> Free Placement Brochure
             </button>
           </div>
         </div>
       </div>
+    </div>
+  </div>
+  <!--End hero Image-->
 
-      <div class="container">
-        <div class="card-deck mb-3 text-center">
-          <div class="card mb-4 shadow-sm">
-            <div class="card-body text-center">
-              <h5 class="card-title">INDIVIDUALS</h5>
-              <p class="card-text">Get ahead with certified expert-led training</p>
-              <div class="d-flex justify-content-center align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-primary">Brouse Courses</button>
-                </div>
+  <!-- Counts Section -->
+  <div class="statCounter">
+    <div class="container">
+      <div class="row p-4">
+        <div class="col-md-4">
+          <div class="counter border-end border-md">
+            <div class="stat text-center">
+              <i class="fa-solid fa-people-group fa-4x p-3" style="color: #ffc109"></i>
+              <h2 class="countText">Happy Clients</h2>
+              <p class="happyClients" id="happyClients">0</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="counter border-end border-md">
+            <div class="stat text-center">
+              <i class="fa-solid fa-users fa-4x p-3" style="color: #ffc109"></i>
+              <h2 class="countText">Trained Professionals</h2>
+              <p class="trainedProfessionals" id="trainedProfessionals">0</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="counter">
+            <div class="stat text-center">
+              <i class="fa-solid fa-laptop-file fa-4x p-3" style="color: #ffc109"></i>
+              <h2 class="countText">Student Placements</h2>
+              <p class="placements" id="placements">0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Counts Section -->
+
+  <!--Cards Section-->
+  <div class="SelectionCards">
+    <div class="container">
+      <section class="text-center">
+        <h1 class="p-1" style="color: rgb(108, 108, 108)">
+          Make it possible
+        </h1>
+        <h4 style="color: rgb(108, 108, 108)">Pivot your career in IT</h4>
+      </section>
+      <div class="card-deck mb-2 text-center">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-body text-center">
+            <h5 class="card-title" style="color: rgb(108, 108, 108)">
+              INDIVIDUALS
+            </h5>
+            <p class="card-text">
+              Get ahead with certified expert-led training curated for
+              individuals
+            </p>
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-warning">
+                  Brouse Courses
+                </button>
               </div>
             </div>
           </div>
-          <div class="card mb-4 shadow-sm">
-            <div class="card-body text-center">
-              <h5 class="card-title">Businesses</h5>
-              <p class="card-text">Train your workforce with intensive training and make your hiring process streamline
-              </p>
-              <div class="d-flex justify-content-center align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-primary">Button 2</button>
-                </div>
+        </div>
+        <div class="card mb-4 shadow-sm">
+          <div class="card-body text-center">
+            <h5 class="card-title" style="color: rgb(108, 108, 108)">
+              Businesses
+            </h5>
+            <p class="card-text">
+              Train your workforce with intensive training and make your
+              hiring process streamline
+            </p>
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-warning">
+                  Find Solution
+                </button>
               </div>
             </div>
           </div>
-          <div class="card mb-4 shadow-sm">
-            <div class="card-body text-center">
-              <h5 class="card-title">Corporations</h5>
-              <p class="card-text">Hire our industry standard trained professionals</p>
-              <div class="d-flex justify-content-center align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-primary">Find Candidate</button>
-                </div>
+        </div>
+        <div class="card mb-4 shadow-sm">
+          <div class="card-body text-center">
+            <h5 class="card-title" style="color: rgb(108, 108, 108)">
+              Corporations
+            </h5>
+            <p class="card-text">
+              Hire our industry standard trained professionals with top skills
+            </p>
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-warning">
+                  Find Candidate
+                </button>
               </div>
             </div>
           </div>
@@ -175,134 +246,136 @@
       </div>
     </div>
   </div>
-  <div class="container">
-    <section class="justify-content-center text-center">
-      <h1>Make it possible</h1>
-      <p>Not all coding bootcamps are same</p>
-    </section>
-   
-  </div>
-  <div>
+
+  <!--Courses Tab-->
+  <div class="CoursesTab" id="CoursesTab">
     <div class="container">
+      <div class="text-center text-secondary pt-3">
+        <h1>Discover Our Bootcamps</h1>
+        <p>
+          Our bootcamps are curated for all age groups not all bootcamps are
+          equal
+        </p>
+      </div>
       <div class="row">
-        <div class="col-md-4 mb-4 ">
-          <a href="page1.html">
-            <div class="card h-100">
-                <i class="fa-solid fa-laptop-code"  id="laptopCode"></i>
-              <div class="card-body text-center">
-                <h5 class="card-title ">Full Stack Devlopment</h5>
+        <div class="col-md-4 mb-4">
+          <a class="anchor text-secondary" href="#">
+            <div class="card h-80">
+              <i class="fa-solid fa-laptop-code mt-4" style="color: #007bff" id="laptopCode"></i>
+              <div class="card-body text-center courseText">
+                <h5 class="card-title text-dark">Full Stack Development</h5>
                 <p class="card-text">3-Stack coding bootcamp</p>
-                <br>
-                <hr>
+                <hr />
                 <h4>Online</h4>
                 <p>16 Weeks | Mon-Fri | 30 Hrs/Week</p>
-                <hr>
+                <hr />
                 <h4>In-Class</h4>
                 <p>16 Weeks | Mon-Fri | 30 Hrs/Week</p>
-              </div>
-              <div class="align-content-center text-center ">
-                <a href="#" class="btn btn-outline-primary">Let's Go</a>
+                <div class="text-center p-3">
+                  <a href="#" class="btn btn-warning">Let's Go</a>
+                </div>
               </div>
             </div>
           </a>
         </div>
+
         <div class="col-md-4 mb-4">
-          <a href="page1.html">
-            <div class="card h-100">
-                <i class="fa-brands fa-react"  id="laptopCode"></i>
-              <div class="card-body text-center text-decoration-none">
-                <h5 class="card-title ">Front End Devlopment</h5>
+          <a href="#" class="anchor text-secondary">
+            <div class="card h-80">
+              <i class="fa-brands fa-react mt-4" style="color: #007bff" id="laptopCode"></i>
+              <div class="card-body text-center">
+                <h5 class="card-title text-dark">Front End Development</h5>
                 <p class="card-text">React Coding bootcamp</p>
-                <br>
-                <hr>
+                <hr />
                 <h4>Online</h4>
                 <p>14 Weeks | Mon-Fri | 30 Hrs/Week</p>
-                <hr>
+                <hr />
                 <h4>In-Class</h4>
                 <p>14 Weeks | Mon-Fri | 30 Hrs/Week</p>
-              </div>
-              <div class="align-content-center text-center ">
-                <a href="#" class="btn btn-outline-primary">Let's Go</a>
+                <div class="text-center p-3">
+                  <a href="#" class="btn btn-warning">Let's Go</a>
+                </div>
               </div>
             </div>
           </a>
         </div>
+
         <div class="col-md-4 mb-4">
-          <a href="page1.html">
-            <div class="card h-100">
-                <i class="fa-solid fa-robot"  id="laptopCode"></i>
-              <div class="card-body text-center text-decoration-none">
-                <h5 class="card-title ">Quality Assurance Automation</h5>
-                <p class="card-text"> Automation Tester in 8 Weeks</p>
-                <br>
-                <hr>
+          <a href="page1.html" class="anchor text-secondary">
+            <div class="card h-80">
+              <i class="fa-solid fa-robot mt-4" style="color: #007bff" id="laptopCode"></i>
+              <div class="card-body text-center">
+                <h5 class="card-title text-dark">
+                  Quality Assurance Automation
+                </h5>
+                <p class="card-text">Automation Tester in 8 Weeks</p>
+                <hr />
                 <h4>Online</h4>
                 <p>8 Weeks | Mon-Fri | 30 Hrs/Week</p>
-                <hr>
+                <hr />
                 <h4>In-Class</h4>
                 <p>8 Weeks | Mon-Fri | 30 Hrs/Week</p>
-              </div>
-              <div class="align-content-center text-center ">
-                <a href="#" class="btn btn-outline-primary">Let's Go</a>
+                <div class="text-center p-3">
+                  <a href="#" class="btn btn-warning">Let's Go</a>
+                </div>
               </div>
             </div>
           </a>
         </div>
+      </div>
+
+      <div class="row">
         <div class="col-md-4 mb-4">
-          <a href="page1.html">
-            <div class="card h-100">
-                <i class="fa-solid fa-chart-column"  id="laptopCode"></i>
-              <div class="card-body text-center text-decoration-none">
-                <h5 class="card-title ">Business Analyst</h5>
-                <p class="card-text"> Get trained from SaFe Scrum Certified Instructor</p>
-                <br>
-                <hr>
+          <a href="page1.html" class="anchor text-secondary">
+            <div class="card h-80">
+              <i class="fa-solid fa-chart-column mt-4" style="color: #007bff" id="laptopCode"></i>
+              <div class="card-body text-center">
+                <h5 class="card-title text-dark">Business Analyst</h5>
+                <p class="card-text">
+                  Get trained from Scrum Certified Instructor
+                </p>
+                <hr />
                 <h4>Online</h4>
                 <p>4 Weeks | Mon-Fri | 12 Hrs/Week</p>
-               
-                
-              </div>
-              <div class="align-content-center text-center ">
-                <a href="#" class="btn btn-outline-primary">Let's Go</a>
+                <div class="text-center p-3">
+                  <a href="#" class="btn btn-warning">Let's Go</a>
+                </div>
               </div>
             </div>
           </a>
         </div>
+
         <div class="col-md-4 mb-4">
-          <a href="page1.html">
-            <div class="card h-100">
-                <i class="fa-brands fa-connectdevelop"  id="laptopCode"></i>
-              <div class="card-body text-center text-decoration-none">
-                <h5 class="card-title ">Dev Ops</h5>
-                <p class="card-text"> Automation Tester in 8 Weeks</p>
-                <br>
-                <hr>
+          <a href="#" class="anchor text-secondary">
+            <div class="card h-80">
+              <i class="fa-brands fa-connectdevelop mt-4" style="color: #007bff" id="laptopCode"></i>
+              <div class="card-body text-center">
+                <h5 class="card-title text-dark">Dev Ops</h5>
+                <p class="card-text">DevOps 8 Weeks</p>
+                <hr />
                 <h4>Online</h4>
                 <p>8 Weeks | Mon-Fri | 30 Hrs/Week</p>
-                
-              </div>
-              <div class="align-content-center text-center ">
-                <a href="#" class="btn btn-outline-primary">Let's Go</a>
+                <div class="text-center p-3">
+                  <a href="#" class="btn btn-warning">Let's Go</a>
+                </div>
               </div>
             </div>
           </a>
         </div>
+
         <div class="col-md-4 mb-4">
-          <a href="page1.html">
-            <div class="card h-100">
-                <i class="fa-solid fa-database"  id="laptopCode"></i>
-              <div class="card-body text-center text-decoration-none">
-                <h5 class="card-title ">Data Science</h5>
-                <p class="card-text"> Automation Tester in 8 Weeks</p>
-                <br>
-                <hr>
+          <a href="#" class="anchor text-secondary">
+            <div class="card h-80">
+              <i class="fa-solid fa-database mt-4" style="color: #007bff" id="laptopCode"></i>
+              <div class="card-body text-center">
+                <h5 class="card-title text-dark">Data Science</h5>
+                <p class="card-text">Automation Tester in 8 Weeks</p>
+                <hr />
                 <h4>Online</h4>
                 <p>8 Weeks | Mon-Fri | 30 Hrs/Week</p>
-                
-              
-              </div>
-              <div class="align-content-center text-center ">
-                <a href="#" class="btn btn-outline-primary">Let's Go</a>
+                <div class="text-center p-3">
+                  <a href="#" class="btn btn-warning">Let's Go</a>
+                </div>
               </div>
             </div>
           </a>
@@ -310,24 +383,586 @@
       </div>
     </div>
   </div>
-  <br>
-  <br>
 
+  <!-- End Courses Section -->
 
+  <!--Questions section-->
+  <div class="container">
+    <span class="text-center text-dark p-4">
+      <h1>Have Questions?</h1>
+      <h6>
+        Give us a call at <b><u>(703)-734-6021</u></b>
+      </h6>
+    </span>
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span class="info-box" style="margin-left: 235px">
+          <i class="fa-solid fa-circle-info fa-3x" style="color: #007bff"></i>
+        </span>
+        <h4 class="info-title pt-3">Online Info Sessoion</h4>
+        <div class="info-icon-text">
+          <i class="fa-solid fa-check"></i>
+          <p>Get Recommendations</p>
+        </div>
+        <div class="info-icon-text">
+          <i class="fa-solid fa-check"></i>
+          <p>See What You Can Get</p>
+        </div>
+        <div class="info-icon-text">
+          <i class="fa-solid fa-check"></i>
+          <p>Chat with Instructor</p>
+        </div>
+        <div class="text-center align-items-center pb-4">
+          <a class="btn btn-md btn-warning">Join for webinar</a>
+        </div>
+      </div>
 
+      <div class="col-md-6">
+        <span class="info-box" style="margin-left: 235px">
+          <i class="fa-solid fa-circle-question fa-3x" style="color: #007bff"></i>
+        </span>
 
-  <!-- End Clients Section -->
-
-  <!--Social Media-->
-
-  <div class="social-links d-none d-md-flex align-items-center justify-content-center socialIcons bg-dark">
-    <ul class="socialIcons">
-      <li class="facebook"><a href=""><i class="fa fa-fw fa-facebook"></i>Facebook</a></li>
-      <li class="twitter"><a href=""><i class="fa fa-fw fa-twitter"></i>Twitter</a></li>
-      <li class="instagram"><a href=""><i class="fa fa-fw fa-instagram"></i>Instagram</a></li>
-      <li class="linkedin"><a href=""><i class="fa fa-fw fa-linkedin"></i>Linkedin</a></li>
-    </ul>
+        <h4 class="info-title pt-3">Schedule an appointment</h4>
+        <div class="info-icon-text">
+          <i class="fa-solid fa-check"></i>
+          <p>Chat with our recruiter</p>
+        </div>
+        <div class="info-icon-text">
+          <i class="fa-solid fa-check"></i>
+          <p>See how bootcamps and placements work</p>
+        </div>
+        <div class="info-icon-text">
+          <i class="fa-solid fa-check"></i>
+          <p>Talk about Financial options</p>
+        </div>
+        <div class="text-center align-items-center pb-4">
+          <a class="btn btn-md btn-warning">Schedule a call</a>
+        </div>
+      </div>
+    </div>
   </div>
+  <!--End question Section-->
+
+  <!--Testimonials-->
+  <div class="containter Testimonials p-4">
+    <h3 class="text-center text-primary">People <i class="fas fa-heart heart"></i></h3>
+    <h1 class="text-primary text-center head">What we do</h1>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+      </ol>
+      <br>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="testimonial-card" style="padding: 20px;">
+                  <img src="./Assets//img/testimonials/testimonials-1.jpg" alt="Person 1">
+                  <div class="rating">
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                  </div>
+                  <h3>John Doe</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna eget diam aliquam tristique.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="testimonial-card" style="padding: 20px;">
+                  <img src="./Assets//img/testimonials/testimonials-1.jpg" alt="Person 1">
+                  <div class="rating">
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                  </div>
+                  <h3>John Doe</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna eget diam aliquam tristique.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="testimonial-card" style="padding: 20px;">
+                  <img src="./Assets//img/testimonials/testimonials-1.jpg" alt="Person 1">
+                  <div class="rating">
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                  </div>
+                  <h3>John Doe</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna eget diam aliquam tristique.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="testimonial-card" style="padding: 20px;">
+                  <img src="./Assets//img/testimonials/testimonials-2.jpg" alt="Person 1">
+                  <div class="rating">
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                  </div>
+                  <h3>John Doe</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna eget diam aliquam tristique.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="testimonial-card" style="padding: 20px;">
+                  <img src="./Assets//img/testimonials/testimonials-2.jpg" alt="Person 1">
+                  <div class="rating">
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                  </div>
+                  <h3>John Doe</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna eget diam aliquam tristique.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="testimonial-card" style="padding: 20px;">
+                  <img src="./Assets//img/testimonials/testimonials-2.jpg" alt="Person 1">
+                  <div class="rating">
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                  </div>
+                  <h3>John Doe</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna eget diam aliquam tristique.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="testimonial-card" style="padding: 20px;">
+                  <img src="./Assets//img/testimonials/testimonials-3.jpg" alt="Person 1">
+                  <div class="rating">
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                  </div>
+                  <h3>John Doe</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna eget diam aliquam tristique.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="testimonial-card" style="padding: 20px;">
+                  <img src="./Assets//img/testimonials/testimonials-3.jpg" alt="Person 1">
+                  <div class="rating">
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                  </div>
+                  <h3>John Doe</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna eget diam aliquam tristique.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="testimonial-card" style="padding: 20px;">
+                  <img src="./Assets//img/testimonials/testimonials-3.jpg" alt="Person 1">
+                  <div class="rating">
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                  </div>
+                  <h3>John Doe</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna eget diam aliquam tristique.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="testimonial-card" style="padding: 20px;">
+                  <img src="./Assets//img/testimonials/testimonials-4.jpg" alt="Person 1">
+                  <div class="rating">
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                  </div>
+                  <h3>John Doe</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna eget diam aliquam tristique.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="testimonial-card" style="padding: 20px;">
+                  <img src="./Assets//img/testimonials/testimonials-4.jpg" alt="Person 1">
+                  <div class="rating">
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                  </div>
+                  <h3>John Doe</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna eget diam aliquam tristique.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="testimonial-card" style="padding: 20px;">
+                  <img src="./Assets//img/testimonials/testimonials-4.jpg" alt="Person 1">
+                  <div class="rating">
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                  </div>
+                  <h3>John Doe</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna eget diam aliquam tristique.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="testimonial-card" style="padding: 20px;">
+                  <img src="./Assets//img/testimonials/testimonials-5.jpg" alt="Person 1">
+                  <div class="rating">
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                  </div>
+                  <h3>John Doe</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna eget diam aliquam tristique.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="testimonial-card" style="padding: 20px;">
+                  <img src="./Assets//img/testimonials/testimonials-5.jpg" alt="Person 1">
+                  <div class="rating">
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                  </div>
+                  <h3>John Doe</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna eget diam aliquam tristique.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="testimonial-card" style="padding: 20px;">
+                  <img src="./Assets//img/testimonials/testimonials-5.jpg" alt="Person 1">
+                  <div class="rating">
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                  </div>
+                  <h3>John Doe</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna eget diam aliquam tristique.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <!--End Testimonials-->
+  <!--Message-->
+  <div class="container">
+    <div class="text-center text-secondary p-4">
+      <h1>Recognize your Potential</h1>
+      <p>
+        A significant problem in tech education is that most bootcamps require
+        students to have a significant background in coding just to join a
+        program. However, at our organization, we not only address this issue
+        but also go above and beyond. We understand the importance of
+        practical experience and securing job placements for our students.
+        With over 10 years of instruction, a global alumni network of 13,000+
+        individuals, and extensive research into Learning Science, the labor
+        force, and pedagogy, we have meticulously crafted a curriculum that
+        not only builds a solid foundation but also prepares students for
+        real-world challenges.
+      </p>
+      <p>
+        What sets us apart is our unwavering commitment to our students'
+        long-term success. We provide lifetime support through our dedicated
+        Career Services team, ensuring that students have access to resources
+        and guidance even after completing the program. Our comprehensive
+        placements service helps connect students with relevant job
+        opportunities, leveraging our extensive network and industry
+        partnerships.
+      </p>
+      <p>
+        By prioritizing both education and career advancement, we strive to
+        empower our students with the skills, knowledge, and support needed to
+        thrive in the tech industry.
+      </p>
+    </div>
+  </div>
+
+  <!--End Message-->
+  <!--Client Partners-->
+  <div class="ourClients">
+    <div class="CompanyClients text-center">
+      <h1>Our Clients</h1>
+    </div>
+    <div class="marquee">
+    <span>
+     
+      <div class="ClientCards">
+        <img src="./Assets/img/portfolio/CareFirst.jpg">
+        <img src="./Assets/img/portfolio/Chase.jpg">
+        <img src="./Assets/img/portfolio/FannieMae.jpg">
+        <img src="./Assets/img/portfolio/FreddieMac.jpg">
+        <img src="./Assets/img/portfolio/Google.jpg">
+        <img src="./Assets/img/portfolio/IDEXX.jpg">
+        <img src="./Assets/img/portfolio/TJMAXX.jpg">
+        <img src="./Assets/img/portfolio/Walmart_download.jpg">
+        <img src="./Assets/img/portfolio/Verizon.jpg">
+        <img src="./Assets/img/portfolio/UHG.jpg">
+        <img src="./Assets/img/portfolio/IBM.jpg">
+        <img src="./Assets/img/portfolio/Nintendo.jpg">
+      </div>
+    </span>
+  </div>
+  </div>
+
+  <!--End Client Partners-->
+
+  <!--Footer-->
+  <div class="footer">
+    <section class="deneb_cta">
+      <div class="container pt-4">
+        <div class="cta_wrapper">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="cta_content">
+                <h3>Have Any Project in Mind ?</h3>
+                <p>
+                  "Collaborate with the Best: Hire Us to Turn Your Project Vision into Reality!"
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 mx-auto">
+              <div class="button_box">
+                <a href="#" class="btn btn-warning">Hire Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="deneb_footer">
+      <div class="widget_wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 ">
+              <div class="widget widegt_about">
+                <div class="widget_title col-lg-4">
+                  <div class=" align-items-center">
+                    <img class="p-0 m-0" src="./Assets//img/Logo/FULL_LOGO.png" alt="##"
+                      style="filter: invert(1); height: auto; width: 200px;">
+                  </div>
+                </div>
+
+                <p>
+                  TekSyntax Inc. takes pride in spearheading cutting-edge initiatives in education and professional
+                  growth,
+                  specializing in high-demand skill sets. As the leading destination for comprehensive training, talent
+                  acquisition, and career transitions, we foster an inclusive community of ambitious professionals who
+                  are
+                  actively shaping their career paths. Our commitment is to facilitate individuals in pursuing rewarding
+                  careers that align with their passions and ambitions, enabling them to flourish and make a meaningful
+                  impact in their chosen industries.
+                </p>
+
+                <div class="mx-5">
+                  <div class="input-group mb-1 mt-1">
+                    <label class="p-2" style="font-weight: 700;">Subscribe to Newsletter</label>
+                    <input type="email" class="form-control" placeholder="Enter Email" aria-label="Recipient's username"
+                      aria-describedby="button-addon2">
+                    <button class="btn btn-warning btn-sm mx-2" type="button" id="button-addon2">Subscribe</button>
+                  </div>
+                  <span class="text-center">
+                    <p>By sharing your email, you acknowledge our <a href="#">Privacy Policy</a> and <a href="#">Terms
+                        of
+                        Service</a>.</p>
+                  </span>
+                </div>
+                <!--Social Media-->
+
+
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="widget widget_link">
+                <div class="widget_title" style="margin-top: 20px;">
+                  <h4>Company</h4>
+                </div>
+                <ul>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">FAQ's</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 ">
+              <div class="widget widget_contact">
+                <div class="widget_title" style="margin-top: 20px;">
+                  <h4>Contact Us</h4>
+                </div>
+                <div class="contact_info">
+                  <div class="single_info">
+                    <div class="icon">
+                      <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="info">
+                      <p><a href="tel:+919246147999">(703)-734-6021</a></p>
+                      <p><a href="tel:+919246147999">+91 924-614-7999</a></p>
+                    </div>
+                  </div>
+                  <div class="single_info">
+                    <div class="icon">
+                      <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="info">
+                      <p>
+                        <a href="mailto:info@deneb.com">info@TekSyntaxinc.com</a>
+                      </p>
+                      <p>
+                        <a href="mailto:services@deneb.com">services@TekSyntaxinc.com</a>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="single_info">
+                    <div class="icon">
+                      <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="info text-secondary">
+                      <p>
+                        1760 Reston prkwy,<br>Suite 511 B, Reston<span>Virginia.</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="social-links d-none d-md-flex align-items-center justify-content-center socialIcons">
+          <ul class="socialIcons">
+            <li class="facebook">
+              <a href=""><i class="fa fa-fw fa-facebook"></i>Facebook</a>
+            </li>
+            <li class="twitter">
+              <a href=""><i class="fa fa-fw fa-twitter"></i>Twitter</a>
+            </li>
+            <li class="instagram">
+              <a href=""><i class="fa fa-fw fa-instagram"></i>Instagram</a>
+            </li>
+            <li class="linkedin">
+              <a href=""><i class="fa fa-fw fa-linkedin"></i>Linkedin</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </div>
+
+  <div class="copyright_area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="copyright_text">
+            <p> &copy; 2023 TekSyntax Inc. All rights reserved.</p>
+          </div>
+        </div>
+        <div class="row">
+          <hr>
+          <div class="RegulatoryInfo" style="display: flex;">
+            <a href="#">
+              Regulatory Information
+            </a>
+            <a href="#"> Terms & Privacy</a>
+            <a href="#"> EEO Statement and Legal Notices</a>
+            <p> Made with <i class="fa-solid fa-heart"></i> in Virginia</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </footer>
+  <!--End Footer-->
+  <!-- Back to top button -->
+  <div id="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
 
 
 
